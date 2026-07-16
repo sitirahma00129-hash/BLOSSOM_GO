@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Blossom GO</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Analytics Dummy -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXXXXX');
+
+    </script>
+
+</head>
+
+
+<body>
+
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <img src="img/logo.jpeg">
+
+            <h2>Blossom GO</h2>
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="cart.html">🛒</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <section class="page-title">
+
+        <h1>Checkout</h1>
+
+        <p>Complete your order</p>
+
+    </section>
+
+
+
+    <section class="checkout-container">
+
+
+        <form id="checkoutForm">
+
+
+            <h2>Customer Information</h2>
+
+
+            <input type="text" placeholder="Nama Lengkap" id="name" required>
+
+
+            <input type="number" placeholder="Nomor WhatsApp" id="phone" required>
+
+
+            <textarea placeholder="Alamat Lengkap" id="address" required></textarea>
+
+
+
+            <h2>Pilih Pembayaran</h2>
+
+
+            <label>
+
+                <input type="radio" name="payment" value="DANA" required>
+
+                DANA
+
+            </label>
+
+
+            <br>
+
+
+            <label>
+
+                <input type="radio" name="payment" value="ShopeePay">
+
+                ShopeePay
+
+            </label>
+
+
+            <br>
+
+
+            <label>
+
+                <input type="radio" name="payment" value="GoPay">
+
+                GoPay
+
+            </label>
+
+
+            <br>
+
+
+            <label>
+
+                <input type="radio" name="payment" value="Bank Transfer">
+
+                Bank Transfer
+
+            </label>
+
+
+
+            <br><br>
+
+
+            <button type="submit" class="checkout-btn">
+
+                Bayar Sekarang
+
+            </button>
+
+
+        </form>
+
+
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy; 2026 Blossom GO | Korean Album & Merchandise Store</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
